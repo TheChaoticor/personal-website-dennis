@@ -1,0 +1,14 @@
+<!-- success.html -->
+
+{% extends 'base/navvbar.html' %}
+
+{% block content %}
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white">Message Sent Successfully!</h2>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Thank you for contacting us, {{ first_name }}!</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
